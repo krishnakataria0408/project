@@ -1,0 +1,53 @@
+.edfaq_ans
+{
+    color: #222222;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+.edfaq_ans h4{
+    font-family: 'OpenSans Bold',Helvetica,Arial,serif;
+    padding:5px 0px 5px 0px;
+    font-size:16px;
+    color:#636363;
+    font-weight:bold;
+}
+.edfaq_ques
+{
+    clear: both;
+    color: #222222;
+    font-family: 'OpenSans Bold',Helvetica,Arial,serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+a.edfaq_bktop{
+	width: 120px;
+	height:23px;
+	color: #222222;
+	text-decoration:none;
+	display: block;
+	background-image: url(../img/chilli_send_me_deal_bg.gif);
+	border-radius: 6px;
+	border: 1px solid #cccccc;
+    	box-shadow: 0 1px 1px #EEEEEE;
+    	text-shadow: 0 1px #FFFFFF;
+    	cursor: pointer;
+
+	float:right; 
+	font-family:Open Sans Condensed, Helvetica, Arial, serif; 
+	font-weight:700; 
+	line-height:23px; 
+	font-size:14px; 
+	text-align:center;
+}
+
+a.edfaq_bktop:hover{
+    background-position: 0 -23px;
+    box-shadow: 0 1px 1px #CCCCCC;
+}
+

@@ -1,0 +1,170 @@
+#edfaq_container
+{
+	color: #888;
+	margin-top: 30px;
+}
+#edfaq_container a img { border: 0; }
+#edfaq_container form input { vertical-align: middle; }
+#edfaq_container input { outline: none; }
+#edfaq_container input[type=text] { color: #888; }
+
+#edfaq_addFaq { width: 728px; }
+#edfaq_addTopicForm { margin-bottom: 15px; }
+
+.edfaq_answrEdit
+{
+    color: #888;
+    font-size: 14px;
+    height: 120px;
+    resize: none;
+    width: 690px;
+}
+
+#edfaq_answrInput
+{
+    color: #888;
+    font-size: 14px;
+    height: 120px;
+    resize: none;
+    width: 716px;
+}
+
+#edfaq_answrInputContainer
+{
+	display: none;
+	margin: 2px 1px 3px 1px;
+	width: 728px;
+}
+
+#edfaq_back
+{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+#edfaq_back a img
+{
+	border: 0;
+	width: 30px;
+}
+
+.edfaq_clear { clear: both; }
+.edfaq_deleteFaq img { width: 26px; }
+
+.edfaq_editFaq
+{
+	display: none;
+	float:right;
+	margin-top: 10px;
+	width: 695px;
+}
+
+.edfaq_left { float: left; }
+.edfaq_faqDelete
+{
+	cursor: pointer;
+	position: absolute;
+	right: -12px;
+	top: -12px;
+	width: 26px;
+    z-index: 99;
+}
+.edfaq_faqQues { font-size: 16px; }
+
+#edfaq_faqs
+{
+    margin-top: 20px;
+    width: 730px;
+}
+
+#edfaq_faqs li.edfaq_faq
+{
+	background-color: #fff;
+	border: 1px solid #0069ff;
+	border-radius: 8px;
+	color: #0069ff;
+	margin-bottom: 11px;
+    padding: 5px;
+	position: relative;
+}
+
+#edfaq_faqTopic
+{
+    border-bottom: 1px solid #ccc;
+    margin-top: 5px;
+    padding: 0 5px 5px;
+}
+
+.edfaq_none { display: none; }
+.edfaq_quesAnswr{ padding-top: 5px; }
+#edfaq_quesInput{ width: 100%; }
+#edfaq_quesInput, #edfaq_topicInput
+{
+	font-size: 18px;
+	height: 35px;
+}
+
+.edfaq_topicQuesCount
+{
+	font-size: 11px;
+	letter-spacing: 1px;
+	margin-top: 1px;
+}
+
+#edfaq_topicSubmit { height: 32px; }
+.edfaq_quesSubmit
+{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+.edfaq_right { float: right; }
+.edfaq_topic
+{
+	background-color: #65b3ff;
+	border-radius: 12px;
+	color: #fff;
+	cursor: pointer;
+    display: none;
+	float: left;
+	height: 60px;
+	margin: 0 12px 15px 0;
+	padding: 5px 0 0 8px;
+	position: relative;
+	width: 250px;
+}
+.edfaq_topic:hover{ background-color: #0081ff; }
+
+.edfaq_topicDelete
+{
+	position: absolute;
+	right: -8px;
+	top: -8px;
+	width: 26px;
+}
+
+#edfaq_topicInput { width: 300px; }
+#edfaq_topicErr
+{
+	color: #ff0000;
+	height: 17px;
+	margin-left: 2px 0 0 2px;
+}
+
+.edfaq_topicName { font-size: 18px; }
+#edfaq_topics { width: 600px; }
+
+.edfaq_topicShortCode
+{
+    border-radius: 0 0 12px 0;
+    background-color: #fff;
+	border: 0;
+	bottom: 0px;
+	color: #888;
+    cursor: text;
+    letter-spacing: 1px;
+    padding: 2px 10px 2px 8px;
+	position: absolute;
+	right: 0px;
+	text-align: right;
+}
